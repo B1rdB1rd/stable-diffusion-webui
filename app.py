@@ -1,4 +1,6 @@
 import os
+import launch
 
 os.system("bash webui.sh")
-os.system("python -u launch.py")
+launch.prepare_environment()
+launch.start()
